@@ -8,6 +8,6 @@ Extract the .rar (sorry, zip was too big for GitHub) to anywhere on the hard dri
 # Additional Notes:
 Make sure the available space on the hard drive is at least double the size of all the multi-track videos to be processed, since FFMPEG will not delete the originals.
 
-The batch operation is configured to extract up to 6 tracks/streams If more tracks are needed then you can simply add more lines to the .bat file, incrementing the stream and output suffix as so: 
+The batch operation is configured to extract up to 6 tracks/streams. If more tracks are needed then you can simply add more lines to the .bat file, incrementing the stream and output suffix as so: 
 ![image](https://user-images.githubusercontent.com/7981637/140191022-fb0db160-6438-4a43-8143-6bc3bbcdd506.png)
 You may see errors in the command prompt window when streams are not found in the original files, this is normal and expected as the batch operation is searching for up to 6 tracks to extract and most videos will not feature this many tracks, these errors/warnings will not affect the operation in any way.
