@@ -3,7 +3,7 @@
 This is a pre-configured Windows batch file, along with FFmpeg binaries (gyan.dev build), that allow you to automate extracting video & audio streams/tracks from a folder of multi-track videos. The resulting files are invidiual videos of each stream/track and not re-encoded, simply copied.
 
 # How To:
-Extract the .rar (sorry, zip was too big for GitHub) to anywhere on the hard drive you like, then place the videos to be extracted into the "in" folder. Double click extract.bat to run the operation. When finished, the extracted videos will be in the "out" folder. Each file will be given a numbered suffix to denote the stream/track that it was extracted from, i.e. _1, _2, _3 etc.
+Extract the .zip to anywhere on the hard drive you like, then place the videos to be extracted into the "in" folder. Double click extract.bat to run the operation. When finished, the extracted videos will be in the "out" folder. Each file will be given a numbered suffix to denote the stream/track that it was extracted from, i.e. _1, _2, _3 etc.
 
 # Additional Notes:
 Make sure the available space on the hard drive is at least double the size of all the multi-track videos to be processed, since FFMPEG will not delete the originals.
